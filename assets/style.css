@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    height: auto;
+}
+
+#A {
+    animation: a_move_entry 2s 1s both, a_move_loop 2s 3s ;
+}
+
+#A:hover {
+    animation: a_move_entry 2s 1s both, a_move_loop 2s 3s infinite
+}
+
+@keyframes a_move_entry {
+    0% {
+        transform: translate(-400px, -100px);
+    }
+    50% {
+        transform: translate(0px, -60px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes a_move_loop {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -60px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#B {
+    animation: b_move_entry 2s 1s both, b_move_loop 2s 3s ;
+}
+
+#B:hover {
+    animation: b_move_entry 2s 1s both, b_move_loop 2s 3s infinite
+}
+
+@keyframes b_move_entry {
+    0% {
+        transform: translate(0px, 600px);
+    }
+    50% {
+        transform: translate(0px, 60px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes b_move_loop {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, 60px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#I_1 {
+    animation: i1_move_entry 1.5s .5s both, i1_move_loop 2s 3s;
+}
+
+#I_1:hover {
+    animation: i1_move_entry 1.5s .5s both, i1_move_loop 2s 3s infinite
+}
+
+@keyframes i1_move_entry {
+    0% {
+        transform: translate(300px, 0px);
+    }
+    50% {
+        transform: translate(-60px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes i1_move_loop {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-60px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#I_2 {
+    animation: i_move_entry 1.5s .5s both, i_move_loop 2s 3s;
+}
+
+#I_2:hover {
+    animation: i_move_entry 1.5s .5s both, i_move_loop 2s 3s infinite
+}
+
+@keyframes i_move_entry {
+    0% {
+        transform: translate(300px, 0px);
+    }
+    50% {
+        transform: translate(-60px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes i_move_loop {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-60px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#L_2 {
+    animation: l_move_entry 1.5s .5s both, l_move_loop 2s 3s;
+}
+
+#L_2:hover {
+    animation: l_move_entry 1.5s .5s both, l_move_loop 2s 3s infinite
+}
+
+@keyframes l_move_entry {
+    0% {
+        transform: translate(-800px, 0px);
+    }
+    50% {
+        transform: translate(0px, -60px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes l_move_loop {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(60px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#L_1 {
+    animation: l1_move_entry 1.5s .5s both, l1_move_loop 2s 3s;
+}
+
+#L_1:hover {
+    animation: l1_move_entry 1.5s .5s both, l1_move_loop 2s 3s infinite
+}
+
+@keyframes l1_move_entry {
+    0% {
+        transform: translate(750px, 0px);
+    }
+    50% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes l1_move_loop {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(60px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
